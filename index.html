@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio Adinda Fina Oktaviani, lulusan Teknik Informatika.">
+  <title>Adinda Fina Oktaviani | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a class="brand" href="#home">adinda<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">Tentang</a>
+        <a href="#education">Pendidikan</a>
+        <a href="#projects">Proyek</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#contact" class="nav-cta">Hubungi</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">PORTFOLIO • INFORMATIKA</p>
+        <h1>Halo, saya <span>Adinda Fina Oktaviani.</span></h1>
+        <p class="hero-lead">Lulusan Teknik Informatika yang tertarik pada pengolahan data, pengembangan aplikasi, dan teknologi informasi.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Lihat Proyek</a>
+          <a class="button button-outline" href="#contact">Hubungi Saya</a>
+        </div>
+        <p class="hero-note">Sedang membangun pengalaman dan terus belajar hal baru.</p>
+      </div>
+      <div class="hero-card">
+        <div class="portrait-placeholder">AF</div>
+        <p class="hero-card-title">Adinda Fina Oktaviani</p>
+        <p class="hero-card-subtitle">Informatics • Data • Web</p>
+        <div class="mini-tags"><span>Python</span><span>MySQL</span><span>Web</span></div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">KENALI SAYA</p>
+        <h2>Tentang Saya</h2>
+      </div>
+      <div class="about-panel">
+        <p>Saya memiliki latar belakang pendidikan S1 Teknik Informatika di Universitas Indraprasta PGRI. Saya pernah mengikuti Program Studi Independen Bersertifikat (MSIB) Batch 7 di TIA Academy dengan pembelajaran Java, Python, Data Science, Data Visualization, Machine Learning, dan Deep Learning.</p>
+        <p>Dalam proyek akademik, saya mengembangkan Opinia, aplikasi web untuk analisis sentimen ulasan Mobile Legends: Bang Bang menggunakan TF-IDF dan Random Forest.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">LATAR BELAKANG</p>
+        <h2>Pendidikan & Pelatihan</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <p class="item-meta">2022 – 2026</p>
+            <h3>Universitas Indraprasta PGRI</h3>
+            <p>S1 Teknik Informatika</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <p class="item-meta">September – Desember 2024</p>
+            <h3>MSIB Batch 7 • TIA Academy</h3>
+            <p>Java & Python for Data Science with BNSP Associate Data Scientist</p>
+            <p class="item-meta">Nilai kumulatif: 82,50 (Predikat A)</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">APA YANG SAYA KERJAKAN</p>
+        <h2>Proyek Pilihan</h2>
+        <p class="section-description">Beberapa proyek akademik dan praktik pelatihan yang pernah saya kerjakan.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-number">01 / PROYEK SKRIPSI</div>
+          <h3>Opinia – Aplikasi Analisis Sentimen</h3>
+          <p>Aplikasi web untuk mengelola dataset dan menganalisis sentimen ulasan pengguna Mobile Legends: Bang Bang dari Google Play Store.</p>
+          <ul>
+            <li>Preprocessing teks dan pelabelan lexicon-based.</li>
+            <li>Ekstraksi fitur TF-IDF dan klasifikasi Random Forest.</li>
+            <li>Fitur upload dataset, klasifikasi, prediksi manual, visualisasi, riwayat, dan laporan.</li>
+            <li>Akurasi model: 89,49%.</li>
+          </ul>
+          <div class="tag-list"><span>Python</span><span>PHP</span><span>MySQL</span><span>TF-IDF</span><span>Random Forest</span></div>
+          <p class="project-footnote">Tambahkan tautan GitHub atau demo setelah proyek dipublikasikan.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">02 / MSIB • PRAKTIK</div>
+          <h3>Aplikasi Peramalan Cuaca</h3>
+          <p>Praktik membuat aplikasi peramalan suhu, kelembapan, dan kecepatan angin berbasis Flask yang dijalankan menggunakan Docker.</p>
+          <div class="tag-list"><span>Python</span><span>Flask</span><span>Docker</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">03 / MSIB • PRAKTIK</div>
+          <h3>CRUD MongoDB & Analisis Sentimen</h3>
+          <p>Praktik operasi CRUD pada MongoDB menggunakan PyMongo serta analisis sentimen menggunakan Streamlit.</p>
+          <div class="tag-list"><span>MongoDB</span><span>PyMongo</span><span>Streamlit</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">04 / MSIB • FINAL PROJECT</div>
+          <h3>Machine Learning & Integrasi Java-Python</h3>
+          <p>Praktik pemilihan dataset Kaggle, pembuatan dan perbandingan model, penyimpanan model dengan Joblib, serta menjalankan script Python dari Java menggunakan ProcessBuilder.</p>
+          <div class="tag-list"><span>Python</span><span>Java</span><span>Joblib</span><span>ProcessBuilder</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">05 / MSIB • PRAKTIK</div>
+          <h3>Integrasi & Pengujian API</h3>
+          <p>Melakukan demonstrasi integrasi API melalui Postman dan localhost sebagai bagian dari checkpoint proyek akhir.</p>
+          <div class="tag-list"><span>API</span><span>Postman</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">KEMAMPUAN</p>
+        <h2>Keahlian</h2>
+      </div>
+      <div class="skills-layout">
+        <div class="skill-group"><h3>Programming & Web</h3><div class="tag-list"><span>Python (dasar)</span><span>Java (dasar)</span><span>PHP (dasar)</span><span>HTML</span><span>CSS</span></div></div>
+        <div class="skill-group"><h3>Data & Tools</h3><div class="tag-list"><span>MySQL</span><span>MongoDB</span><span>Data Processing</span><span>Data Cleaning</span><span>Data Visualization</span><span>Machine Learning</span><span>Microsoft Word</span></div></div>
+        <div class="skill-group"><h3>Soft Skills</h3><div class="tag-list"><span>Problem Solving</span><span>Analytical Thinking</span><span>Attention to Detail</span><span>Time Management</span><span>Teamwork</span></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <p class="eyebrow">TERHUBUNG</p>
+        <h2>Mari terhubung.</h2>
+        <p>Terbuka untuk kesempatan kerja, kolaborasi, dan kesempatan belajar di bidang teknologi informasi.</p>
+        <a class="button button-light" href="mailto:emailkamu@example.com">Kirim Email</a>
+        <p class="contact-hint">Ganti alamat email pada tombol ini dengan email aktif kamu.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Adinda Fina Oktaviani. Dibuat dengan HTML, CSS, dan JavaScript.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

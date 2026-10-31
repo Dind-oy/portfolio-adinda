@@ -1,22 +1,23 @@
-PORTFOLIO ADINDA FINA OKTAVIANI
-===============================
-
+PORTOFOLIO ADINDA FINA OKTAVIANI
 Cara menjalankan:
-1. Ekstrak folder portfolio-adinda.
-2. Buka folder tersebut di Visual Studio Code.
-3. Buka index.html menggunakan browser atau ekstensi Live Server.
+1. Ekstrak ZIP.
+2. Buka folder portfolio-adinda.
+3. Klik dua kali index.html atau buka folder di VS Code dengan Live Server.
+4. Tidak perlu XAMPP/database untuk menampilkan website portofolio statis.
 
-Struktur:
-- index.html       : isi halaman portofolio
-- style.css        : desain dan responsive layout
-- script.js        : menu navigasi mobile dan tahun footer
-- assets/opinia/   : enam screenshot asli aplikasi Opinia
+Isi:
+- index.html: konten, detail 3 proyek, link repository/video.
+- style.css: desain responsif, warna pastel, font Poppins, animasi.
+- script.js: scroll reveal, slider, menu mobile, dan progress bar.
+- assets/: screenshot proyek.
 
-Sebelum dipublikasikan:
-- Ganti emailkamu@example.com pada index.html dengan email aktif.
-- Periksa kembali detail pendidikan, pelatihan, dan deskripsi proyek.
-- Screenshot Opinia ditampilkan sebagai dokumentasi aplikasi yang berjalan secara lokal.
-- Status deployment online ditulis secara transparan sebagai masih dalam pengembangan.
+Penting untuk GitHub Pages:
+Unggah ISI folder portfolio-adinda ke ROOT repository (bukan folder portfolio-adinda bersarang).
+index.html, style.css, script.js, dan folder assets harus sejajar di root.
+Folder assets harus tetap folder.
 
-GitHub Pages:
-Unggah isi folder portfolio-adinda ke repository portofolio, bukan file ZIP-nya.
+Catatan konten:
+- Opinia memakai dua screenshot saja. Metrik sesuai abstrak skripsi: accuracy 89,49%, precision 87,90%, recall 77,24%, F1-score 82,23%.
+- Weather dijelaskan berdasarkan tampilan aplikasi dan laporan MSIB. Detail model/dataset yang tidak terverifikasi tidak dikarang.
+- KKP dijelaskan berdasarkan laporan kerja praktik. Database/library tidak ditebak.
+- Poppins dimuat dari Google Fonts, sehingga perlu koneksi internet untuk font tersebut.
